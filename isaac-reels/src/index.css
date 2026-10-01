@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800;900&family=JetBrains+Mono:wght@600;800&display=swap');
+* { box-sizing: border-box; }
+body { margin: 0; }
+.reel, .scene { background: #070a0f; color: #f7f9fc; font-family: Inter, Arial, sans-serif; overflow: hidden; }
+.scene { padding: 0 72px; }
+.badge { position: absolute; top: 205px; left: 72px; color: #7fe9e4; font: 600 21px 'JetBrains Mono', monospace; letter-spacing: 1.2px; }
+.header { position: absolute; top: 262px; left: 72px; right: 72px; z-index: 4; }
+.kicker { color: #ff667a; font: 800 27px 'JetBrains Mono', monospace; letter-spacing: 2.5px; margin-bottom: 20px; }
+.title { white-space: pre-line; font-size: 66px; line-height: .98; font-weight: 900; letter-spacing: -3px; text-shadow: 0 8px 40px #000; }
+.visual { position: absolute; top: 510px; left: 72px; right: 72px; height: 540px; z-index: 2; display: flex; flex-direction: column; gap: 22px; }
+.visual-game .gameplay-frame, .visual-model .model-frame { height: 540px; }
+.visual-split .media-frame { height: 399px; }
+.media-frame { position: relative; overflow: hidden; border: 2px solid #273242; border-radius: 28px; background: #0d1219; box-shadow: 0 30px 80px #0009; }
+.gameplay-video { position: absolute; width: 2496px; height: 1560px; max-width: none; left: -44px; top: -44px; }
+.model-video { position: absolute; width: 1872px; height: 2812px; max-width: none; left: 0; top: 0; }
+.enemy-game-video { position: absolute; width: 2496px; height: 1560px; max-width: none; left: -270px; top: -270px; }
+.enemy-model-video { position: absolute; width: 1872px; height: 2812px; max-width: none; left: 0; top: -720px; }
+.scan { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 0%, #7fe9e40a 50%, transparent 100%); border-radius: inherit; }
+.caption { position: absolute; left: 72px; right: 72px; top: 1080px; height: 350px; z-index: 5; display: flex; align-items: center; padding: 34px 42px; border-radius: 32px; background: #111925ee; border: 1px solid #314057; box-shadow: 0 25px 70px #000b; }
+.caption span { font-size: 40px; line-height: 1.16; font-weight: 800; letter-spacing: -1.2px; }
+.progress { position: absolute; left: 72px; right: 72px; top: 1495px; height: 8px; border-radius: 8px; background: #202a38; overflow: hidden; }
+.progress div { height: 100%; background: linear-gradient(90deg, #5de4e7, #ff667a); }
+.glow { position: absolute; width: 700px; height: 700px; border-radius: 50%; filter: blur(150px); opacity: .12; }
+.glow-a { background: #5de4e7; left: -350px; top: 450px; }
+.glow-b { background: #ff667a; right: -450px; bottom: -100px; }
