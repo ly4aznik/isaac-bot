@@ -1,0 +1,7 @@
+<metadata>
+  <name>Isaac Bot Bridge</name>
+  <directory>isaac_bot_bridge</directory>
+  <id>isaac_bot_bridge</id>
+  <description>Local UDP observation/action bridge for the Python controller.</description>
+  <version>1.0.0</version>
+</metadata>
